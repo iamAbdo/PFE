@@ -1,0 +1,103 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+}
+
+.logo img {
+    max-width: 8vh; /* Adjust the size as needed */
+    background-color: aqua;
+    border-radius: 10px; /* Adjust the radius as needed */
+    overflow: hidden; /* Ensures the rounded corners are visible */
+    display: block; /* Ensures the border-radius is applied to the image */
+}
+.search-bar {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+}
+
+.search-bar input {
+    padding: 0.5em;
+    border: none;
+    border-radius: 10px 0 0 10px;
+}
+
+.search-bar button {
+    padding: 0.5em;
+    background-color: #555;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}
+
+.search-icon {
+    width: 20px; /* Adjust the size as needed */
+    height: 20px; /* Adjust the size as needed */
+    margin-right: 0.5em; /* Add margin to create space between the icon and input */
+}
+/*
+.search-bar {
+    flex-grow: 1;
+    margin-left: auto;
+    display: flex;
+    height: 30%;
+}
+
+.search-bar input {
+    padding: 0.5em;
+    border: none;
+    border-radius: 10px 0 0 10px;
+}
+
+.search-bar button {
+    padding: 0.5em;
+    background-color: #555;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}
+
+.search-icon {
+    width: 100%;
+    height: 100%;
+}
+*/
+.main-nav ul {
+    list-style: none;
+    align-items: center;
+    padding: 5%;
+    margin: 0;
+    display: flex;
+}
+
+.main-nav li {
+    margin-left: 1em;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.main-nav a:hover {
+    color: #ccc; /* Light grey color on hover */
+}
+
+.user-settings img {
+    max-width: 30px; /* Adjust the size as needed */
+    background-color: #555;
+    border-radius: 10px;
+    cursor: pointer;
+}
