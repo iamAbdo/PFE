@@ -1,79 +1,43 @@
 /* styles.css */
-
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: 'Arial', sans-serif;
+    background-color: white;
     margin: 0;
     padding: 0;
 }
 
 .main-header {
-    background-color: #333;
+    background-color: #4d321f;
     color: white;
     padding: 1em;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    height: 5vh;
+    height: 10vh;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .logo img {
-    max-width: 8vh; /* Adjust the size as needed */
-    background-color: aqua;
+    height: 8vh; /* Adjust the size as needed */
+    background-color: white;
+    justify-content: left;
     border-radius: 10px; /* Adjust the radius as needed */
     overflow: hidden; /* Ensures the rounded corners are visible */
     display: block; /* Ensures the border-radius is applied to the image */
 }
-.search-bar {
+
+.left{
     display: flex;
-    align-items: center; /* Align items vertically in the center */
+    align-items: center;
 }
-
-.search-bar input {
-    padding: 0.5em;
-    border: none;
-    border-radius: 10px 0 0 10px;
-}
-
-.search-bar button {
-    padding: 0.5em;
-    background-color: #555;
-    border: none;
-    cursor: pointer;
-    border-radius: 0 10px 10px 0;
-}
-
-.search-icon {
-    width: 20px; /* Adjust the size as needed */
-    height: 20px; /* Adjust the size as needed */
-    margin-right: 0.5em; /* Add margin to create space between the icon and input */
-}
-/*
-.search-bar {
-    flex-grow: 1;
-    margin-left: auto;
+.right{
     display: flex;
-    height: 30%;
+    align-items: center;
 }
 
-.search-bar input {
-    padding: 0.5em;
-    border: none;
-    border-radius: 10px 0 0 10px;
-}
-
-.search-bar button {
-    padding: 0.5em;
-    background-color: #555;
-    border: none;
-    cursor: pointer;
-    border-radius: 0 10px 10px 0;
-}
-
-.search-icon {
-    width: 100%;
-    height: 100%;
-}
-*/
 .main-nav ul {
     list-style: none;
     align-items: center;
@@ -95,7 +59,37 @@ body {
     color: #ccc; /* Light grey color on hover */
 }
 
+.search-bar {
+    justify-content: right;
+    margin: 1rem;
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+}
+
+.search-bar input {
+    padding: 0.5em;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    
+}
+
+.search-bar button {
+    padding: 0.5em;
+    background-color: #555;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+    height: 30px;
+}
+
+.search-icon {
+    max-height: 100%;
+    width: auto;
+}
+
+
 .user-settings img {
+    
     max-width: 30px; /* Adjust the size as needed */
     background-color: #555;
     border-radius: 10px;
