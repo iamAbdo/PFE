@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Fond blanc */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4d321f; /* Marron foncé */
+    color: #ffffff; /* Texte blanc */
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff; /* Fond blanc */
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#produit img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    font-size: 24px;
+    color: #4d321f; /* Marron foncé */
+}
+
+p {
+    font-size: 16px;
+    color: #4d321f; /* Marron foncé */
+}
+
+strong {
+    font-weight:
