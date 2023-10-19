@@ -71,8 +71,9 @@ body {
 }
 
 .search-bar input {
+    outline-color: #4d321f;
     padding: 0.5em;
-    border: none;
+    border: 1px solid #4d321f;
     border-radius: 10px 0 0 10px;
     
 }
@@ -98,3 +99,14 @@ body {
     border-radius: 10px;
     cursor: pointer;
 }
+svg:hover {
+    background-color: white;
+    color: #4d321f;
+}
+svg {
+    width: 30px;
+    height: 30px; /* Adjust the size as needed */
+    border-radius: 10px;
+    cursor: pointer;
+}
+
